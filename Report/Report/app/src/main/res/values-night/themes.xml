@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Report" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#1E88E5</item>
+        <item name="colorPrimaryVariant">#000E1E</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#E4E4E4</item>
+        <item name="colorSecondaryVariant">#FF0000</item>
+        <item name="colorOnSecondary">@color/teal_700</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">#3C0A5CA5</item>
+        <item name="colorSurface">#00142D</item>
+        <item name="backgroundColor">#3C0A5CA5</item>
+        <item name="thumbColor">#001C39</item>
+        <item name="tabTextColor">#ABD8FF</item>
+        <item name="textcolor">#F4F4F4</item>
+        <item name="itemFillColor">#B083FF</item>
+        <item name="buttoncolor">#EFEFEF</item>
+        <item name="tintcolor">#ABD8FF</item>
+        <item name="cardbackgroundcolor">#213249</item>
+        <item name="cardBackgroundColor">#E8E8E8</item>
+        <item name="colorButtonNormal">#4D213751</item>
+        <item name="color">#5E1A2B3E</item>
+    </style>
+</resources>

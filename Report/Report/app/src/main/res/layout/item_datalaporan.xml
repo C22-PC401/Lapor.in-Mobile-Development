@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardBackgroundColor="?attr/cardbackgroundcolor"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:layout_marginBottom="20dp"
+    app:cardCornerRadius="15dp"
+    android:id="@+id/item_datainformasi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/idnama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Nama"
+            android:textColor="?attr/tabTextColor"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/idtanggallahir"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="?attr/textcolor"
+            android:text="Tanggal Lahir"/>
+        <TextView
+            android:id="@+id/idjeniskelamin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="?attr/textcolor"
+            android:text="Jenis Kelamin"/>
+        <TextView
+            android:id="@+id/idnomortelepon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="?attr/textcolor"
+            android:text="Nomor Telepon"/>
+        <TextView
+            android:id="@+id/idalamat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="?attr/textcolor"
+            android:text="Alamat"/>
+
+
+        <TextView
+            android:id="@+id/idtanggalkejadian"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textColor="?attr/textcolor"
+            android:text="Tanggal Kejadian"/>
+        <TextView
+            android:id="@+id/idjenispelecehan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="?attr/textcolor"
+            android:text="Jenis Pelecehan"/>
+        <TextView
+            android:id="@+id/idlokasikejadian"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="?attr/textcolor"
+            android:text="Lokasi Kejadian"/>
+        <TextView
+            android:id="@+id/iddeskripsikejadian"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="?attr/textcolor"
+            android:text="Deskripsi Kejadian"/>
+        <TextView
+            android:id="@+id/idbuktipendukung"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="?attr/textcolor"
+            android:text="Bukti Kejadian"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imageurlid"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_report_24"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
